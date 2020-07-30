@@ -19,7 +19,7 @@ export default function App(){
         onChangeText={()=>{}}
         />
 
-        <TextInput style={styles.input}
+        <TextInput secureTextEntry style={styles.input} 
         placeholder="Senha"
         autoCorrect={false}
         onChangeText={()=>{}}
